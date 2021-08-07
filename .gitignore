@@ -37,3 +37,4 @@ terraform.rc
 .DS_Store
 *.pem
 keys
+secrets

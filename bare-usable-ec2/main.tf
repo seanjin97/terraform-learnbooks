@@ -113,7 +113,7 @@ resource "aws_eip" "eip-1" { # external facing ip, requires internet gateway to 
 }
 
 resource "aws_instance" "web-server-instance" {
-  ami               = "ami-090717c950a5c34d3"
+  ami               = "ami-083ac7c7ecf9bb9b0"
   instance_type     = "t2.micro"
   availability_zone = "us-west-2a" # needs to be hardcoded
   key_name          = "learn-terraform"
